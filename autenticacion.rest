@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/users/register
+Content-Type: application/json
+
+{
+    "username": "Luis",
+    "email": "m@gmail.com",
+    "password": "Admin123!",
+    "active": true
+
+}
+
+###
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+    "email": "mario@gmail.com",
+    "password": "12345"
+}
+
+###
+GET http://localhost:3000/api/users/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDBjNjYzOTNhMmE0OTZkNzhkYjllY2EiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY3ODU1NTM4M30.ilpZhKDcoYnll1B47bof-PE2jC8tg43IjS89O8tzwmg

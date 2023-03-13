@@ -1,0 +1,54 @@
+GET http://localhost:3000/api/products
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDBjNjYzOTNhMmE0OTZkNzhkYjllY2EiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY3ODUzNzk0OH0.1kFLW1iC2yNNpNh_hB7ZJRHq_jKEYhBDe_iuliwVdUY
+
+
+###
+GET http://localhost:3000/api/products/6405b7c98613a6d70dc42441
+
+###
+GET http://localhost:3000/api/products/dpto/oficina
+
+###
+GET http://localhost:3000/api/products/dpto/stats
+
+###
+GET http://localhost:3000/api/products/dpto/same
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDBjNjYzOTNhMmE0OTZkNzhkYjllY2EiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY3ODUzNzk0OH0.1kFLW1iC2yNNpNh_hB7ZJRHq_jKEYhBDe_iuliwVdUY
+
+###
+GET http://localhost:3000/api/products/add/6405b7c98613a6d70dc42441
+Authorization: 
+
+###
+GET http://localhost:3000/api/products/taxes
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDBjNjYzOTNhMmE0OTZkNzhkYjllY2EiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY3ODUzNzk0OH0.1kFLW1iC2yNNpNh_hB7ZJRHq_jKEYhBDe_iuliwVdUY
+
+###
+GET http://localhost:3000/api/products/cart
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDBjNjYzOTNhMmE0OTZkNzhkYjllY2EiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY3ODUzNzk0OH0.1kFLW1iC2yNNpNh_hB7ZJRHq_jKEYhBDe_iuliwVdUY
+
+###
+GET http://localhost:3000/api/products/pr/30
+
+###
+GET http://localhost:3000/api/products/pr/max/100
+
+###
+GET http://localhost:3000/api/products/list/desc
+
+###
+GET http://localhost:3000/api/products/available
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Salchichonera",
+    "description": "Sal chichón",
+    "price": 1,
+    "department": "cocina",
+    "available": true,
+    "stock": 210000
+}
+
